@@ -1,0 +1,49 @@
+name: covid19_status
+description: A new Flutter application.
+
+version: 2.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  http: ^0.12.1
+  pie_chart: ^3.1.1
+  font_awesome_flutter: ^8.8.1
+  url_launcher: ^5.4.10
+  simple_animations: ^2.2.1
+  intl: ^0.16.1
+  # firebase_messaging: ^6.0.16
+  fluttertoast: ^4.0.1
+
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/playstore.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+  fonts:
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
+        - asset: fonts/SourceSansPro-Bold.ttf
+          weight: 500
